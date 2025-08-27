@@ -1,9 +1,16 @@
 {
-  "name": "compare-ai-function",
+  "name": "starter-template",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "main": "src/main.js",
   "type": "module",
+  "scripts": {
+    "format": "prettier --write ."
+  },
   "dependencies": {
-    "node-fetch": "^3.3.2"
+    "node-appwrite": "^14.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
   }
 }
